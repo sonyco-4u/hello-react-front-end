@@ -2,7 +2,8 @@
 /* Set margin to 0 to remove default margin */
 body {
   margin: 0;
- /* Set font family to a stack of system fonts and sans-serif as fallback */
+
+  /* Set font family to a stack of system fonts and sans-serif as fallback */
   font-family:
     -apple-system,
     BlinkMacSystemFont,
