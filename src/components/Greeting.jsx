@@ -14,9 +14,7 @@ const Greetings = () => {
     return <p>{error}</p>;
   }
 
-  return (
-    <p className="message">{greeting.message}</p>
-  );
+  return <p className='message'>{greeting.message}</p>;
 };
 
 export default Greetings;
