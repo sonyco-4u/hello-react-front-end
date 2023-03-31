@@ -1,7 +1,9 @@
+// Import necessary dependencies
 import './App.css';
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import Greeting from './components/Greeting';
 
+// Define App component
 const App = () => (
   <Router>
     <div className="container">
@@ -12,4 +14,5 @@ const App = () => (
   </Router>
 );
 
+// Export App component as a default export
 export default App;

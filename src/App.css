@@ -1,0 +1,25 @@
+/* Reset box model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Centered container with blue background */
+.container {
+  background-color: rgb(49, 4, 211);
+  max-width: 40%;
+  margin: auto;
+  margin-top: 10em;
+  padding: 1em 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Large, bold message text */
+.message {
+  font-size: larger;
+  font-weight: 600;
+}

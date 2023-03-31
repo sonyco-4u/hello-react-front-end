@@ -22,7 +22,11 @@ const greetingSlice = createSlice({
         return newState;
       })
       .addCase(getGreetings.rejected, (state) => {
-        const newState = { ...state, error: 'Failed to fetch the greeting message', loading: false };
+        const newState = {
+          ...state,
+          error: 'Failed to fetch the greeting message',
+          loading: false,
+        };
         return newState;
       });
   },

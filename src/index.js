@@ -5,13 +5,15 @@ import './index.css';
 import App from './App';
 import store from './redux/store';
 
+// Get the root element where the app will be rendered
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// Use StrictMode to highlight potential issues in the code
 root.render(
   <React.StrictMode>
     <Provider store={store}>
       <App />
     </Provider>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

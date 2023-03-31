@@ -19,9 +19,19 @@
       "react/react-in-jsx-scope": "off",
       "import/no-unresolved": "off",
       "no-shadow": "off"
-    },
-    "ignorePatterns": [
-      "dist/",
-      "build/"
-    ]
+    }
   }
+    // "extends": [
+    //   "eslint:recommended",
+    //   "plugin:import/recommended"
+    // ],
+    // "plugins": [
+    //   "import"
+    // ],
+    // "rules": {
+    //   "import/no-extraneous-dependencies": "error"
+    // },
+    // "ignorePatterns": [
+    //   "dist/",
+    //   "build/"
+    // ]
